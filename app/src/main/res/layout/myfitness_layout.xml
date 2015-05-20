@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include layout="@layout/toolbar_layout" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_action_new"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@android:color/white"
+            android:id="@+id/fab"
+            android:elevation="1dp"
+            android:background="@color/Indigo_nav_color"
+
+            android:layout_gravity="right" />
+    </FrameLayout>
+    <include layout="@layout/mycard_layout"/>
+
+
+
+
+
+</LinearLayout>
